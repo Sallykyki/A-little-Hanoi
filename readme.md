@@ -28,9 +28,8 @@ using a Content Management System is a recommendation to facilitate content mana
 
 ### AUDIENCE
 
-The audience is divided into 2 segments. The first one is youth whose ages ranges from 20 to
-
-25. They like exploring different cafes and usually search on the website to find out the
+The audience is divided into 2 segments. The first one is youth whose ages ranges from 20 to 25. 
+They like exploring different cafes and usually search on the website to find out the
 new ones. The second segment is from 25 to 40 years old who have stable jobs. They are
 passionate about coffee and interested in researching information related it. They are also the
 loyal customers of the cafe who frequently order products from the website.
