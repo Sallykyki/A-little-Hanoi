@@ -12,7 +12,6 @@ The ideal website is the one which has 5 pages including Our story, Menu, Websho
 
 The biggest challenge should be implementing the Webshop page. Because it requires knowledge of backend fields like security and payment system. Additionally, front-end development skills are essential to turn the good design into a real web page smoothly. Finally, using a Content Management System is a recommendation to facilitate content management.
 
-
 ## 2. Audiences, mission, and vision
 
 ###AUDIENCE
