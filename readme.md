@@ -28,13 +28,12 @@ Apart from promoting the cafe, the website is expected to become a particular ch
 
 ## 3. Architectural strategies and approaches
 
-The front page of the website is the gateway to access all information placed on the website. It will include the following global navigation:
-• Our story: In this site, the story of "A little Hanoi" from scratch will be shown in an attractive way.
-• Menu: This page presents a list of selections available in the cafe.
-• Webshop: The place where customers can order blended coffee and souvenir items with delivery service.
-• Contact us: Contact information and a form for leaving feedback are shown here.
-• Blog: The page covers information of new product coming and knowledge of coffee, tea and
-cake.
+The front page of the website is the gateway to access all information placed on the website. It will include the following global navigation:  
+• Our story: In this site, the story of "A little Hanoi" from scratch will be shown in an attractive way.  
+• Menu: This page presents a list of selections available in the cafe.  
+• Webshop: The place where customers can order blended coffee and souvenir items with delivery service.  
+• Contact us: Contact information and a form for leaving feedback are shown here.  
+• Blog: The page covers information of new product coming and knowledge of coffee, tea and cake.  
 The organization scheme is subjective. It follows the logic: a new user comes to my site, he wants to know briefly about my cafe then he browses the Menu as well as the Webshop. If the user has any questions he can reach us directly through "Contact us”. Blog page is further informative entries.
 
 ## 4. Technologies 
