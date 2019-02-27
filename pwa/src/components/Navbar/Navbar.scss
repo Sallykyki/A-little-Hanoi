@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import "../../styles/setting";
 
 .navbar-bg {
-  background-color: #334209;
+  background-color: $fresh;
   color: #ffffff;
 }
 .logo-text {
