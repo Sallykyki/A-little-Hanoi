@@ -1,8 +1,14 @@
 import React, {Component} from "react";
+import Navbar from "../../components/Navbar";
 
 class AboutPage extends Component {
   render() {
-    return <div>About page</div>;
+    return (
+      <div>
+        <Navbar />
+        About page
+      </div>
+    );
   }
 }
 

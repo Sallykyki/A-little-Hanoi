@@ -6,7 +6,9 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark navbar-bg">
-        <a className="navbar-brand logo-text"> A little Hanoi</a>
+        <Link to="/" className="navbar-brand logo-text">
+          A little Hanoi
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -30,8 +32,8 @@ class Navbar extends Component {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/our-story" className="nav-link">
-                Our Story
+              <Link to="/about-us" className="nav-link">
+                About Us
               </Link>
             </li>
             <li className="nav-item">
