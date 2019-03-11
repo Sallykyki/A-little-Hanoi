@@ -38,7 +38,7 @@ class Navbar extends Component {
             </li>
             <li className="nav-item">
               <Link to="/contact-us" className="nav-link">
-                Conact Us
+                Contact Us
               </Link>
             </li>
           </ul>
