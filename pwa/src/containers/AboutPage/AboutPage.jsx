@@ -12,7 +12,7 @@ class AboutPage extends Component {
         <Navbar />
         <div className="container text-center section-spacer">
           <h1>Our story</h1>
-          <p>
+          <p className="section-spacer-sm">
             A little Hanoi cafe is a story which we desire to tell ourselves - people were born and grew up in Hanoi -
             as well as foreign friends. The way we tell the story is through Hanoian's coffee. Hanoians love enjoying
             coffee in the narrow streets of Hanoi's old quarter. Some people consider drinking coffee as an art that
@@ -33,9 +33,11 @@ class AboutPage extends Component {
             </div>
           </div>
         </div>
-        <div className="container section-spacer">
+        {/* <div className="container section-spacer">
           <h1 className="text-center">Our team</h1>
-        </div>
+
+        </div> */}
+        <div className="section-spacer" />
         <Footer />
       </div>
     );
