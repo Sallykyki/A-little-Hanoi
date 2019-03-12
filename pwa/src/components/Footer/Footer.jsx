@@ -15,7 +15,8 @@ class Footer extends Component {
             </div>
             <div className="col-sm-4">
               <p>Follow us on social media</p>
-              <FontAwesomeIcon icon={faFacebook} size="2x" /> <FontAwesomeIcon icon={faInstagram} size="2x" />
+              <FontAwesomeIcon icon={faFacebook} size="2x" style={{marginRight: 0.5 + "em"}} />
+              <FontAwesomeIcon icon={faInstagram} size="2x" style={{marginRight: 0.5 + "em"}} />
               <p />
             </div>
           </div>
