@@ -50,12 +50,8 @@ class ContactPage extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6">
-              <iframe
-                src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameBorder="0"
-                style={{border: 0}}
-              />
+            <div className="col-sm-6 shop-map">
+              <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" />
             </div>
           </div>
         </div>
