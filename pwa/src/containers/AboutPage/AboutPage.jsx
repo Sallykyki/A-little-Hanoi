@@ -23,13 +23,13 @@ class AboutPage extends Component {
           </p>
           <div className="row story section-spacer-sm">
             <div className="col-sm 4">
-              <img src={story1Img} alt="Hanoi img" />
+              <img src={story1Img} alt="Hanoi flower" />
             </div>
             <div className="col-sm 4">
-              <img src={story2Img} alt="Hanoi img" />
+              <img src={story2Img} alt="Hanoi old quarter" />
             </div>
             <div className="col-sm 4">
-              <img src={story3Img} alt="Hanoi img" />
+              <img src={story3Img} alt="Hanoi train rail" />
             </div>
           </div>
         </div>
