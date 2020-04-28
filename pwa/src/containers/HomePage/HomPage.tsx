@@ -122,11 +122,11 @@ class Homepage extends Component {
             <div className="col-sm-12">
               <h1 className="text-center">Book a table</h1>
               <form>
-                <div class="form-group row">
-                  <div class="col-md-6">
+                <div className="form-group row">
+                  <div className="col-md-6">
                     <input type="text" className="form-control" placeholder="Name" />
                   </div>
-                  <div class="col-md-6">
+                  <div className="col-md-6">
                     <input type="text" className="form-control" placeholder="Email" />
                   </div>
                 </div>
@@ -138,7 +138,7 @@ class Homepage extends Component {
                     <input type="date" className="form-control" placeholder="Date" />
                   </div>
                   <div className="col-md-4">
-                    <input type="nmber" className="form-control" placeholder="Number of people" />
+                    <input type="number" className="form-control" placeholder="Number of people" />
                   </div>
                 </div>
                 <button className="btn btn-primary">Book</button>
