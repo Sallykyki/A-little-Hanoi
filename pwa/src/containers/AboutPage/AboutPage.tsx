@@ -4,7 +4,6 @@ import Footer from "../../components/Footer";
 import story1Img from "../../assets/img/story1.jpeg";
 import story2Img from "../../assets/img/story2.jpg";
 import story3Img from "../../assets/img/story3.jpeg";
-import "./AboutPage.scss";
 class AboutPage extends Component {
   render() {
     return (

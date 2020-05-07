@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import "./ContactPage.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMapMarkerAlt, faMobileAlt, faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons";
 
