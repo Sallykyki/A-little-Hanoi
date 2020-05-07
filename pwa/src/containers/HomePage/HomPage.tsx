@@ -1,88 +1,22 @@
 import React, {Component} from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import "./HomePage.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCoffee} from "@fortawesome/free-solid-svg-icons";
-import dishCardImg from "../../assets/img/dish-card-img.jpeg";
-import drinkCardImg from "../../assets/img/drink-card-img.jpeg";
-import cakeCardImg from "../../assets/img/cake-card-img.jpeg";
+
 import aboutUsImg from "../../assets/img/about-us.jpeg";
 import webshopImg from "../../assets/img/webshop-card-img.jpeg";
+
+import MenuSection from "../../components/MenuSection";
+
+import Grid from "@material-ui/core/Grid";
 class Homepage extends Component {
   render() {
     return (
       <div>
         <Navbar />
-        <div className="container unique-points section-spacer">
-          <div className="row text-center ">
-            <div className="col-sm-4">
-              <h5>
-                <FontAwesomeIcon icon={faCoffee} /> Point 1
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius est vel condimentum volutpat.
-              </p>
-            </div>
-            <div className="col-sm-4">
-              <h5>
-                <FontAwesomeIcon icon={faCoffee} /> Point 2
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius est vel condimentum volutpat.
-              </p>
-            </div>
-            <div className="col-sm-4">
-              <h5>
-                <FontAwesomeIcon icon={faCoffee} /> Point 3
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius est vel condimentum volutpat.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="container menu section-spacer">
-          <h1 className="text-center">Our Menu</h1>
-          <div className="row">
-            <div className="col-sm-4">
-              <div className="card">
-                <img className="card-img-top" src={dishCardImg} alt="dish-menu" />
-                <div className="card-body">
-                  <h3 className="card-title text-center">Dish</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius est vel condimentum
-                    volutpat. Ut dapibus, ex eu auctor sollicitudin.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-4">
-              <div className="card">
-                <img className="card-img-top" src={cakeCardImg} alt="cake-menu" />
-                <div className="card-body">
-                  <h3 className="card-title text-center">Cake</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius est vel condimentum
-                    volutpat. Ut dapibus, ex eu auctor sollicitudin.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-4">
-              <div className="card">
-                <img className="card-img-top" src={drinkCardImg} alt="drink-menu" />
-                <div className="card-body">
-                  <h3 className="card-title text-center">Drink</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius est vel condimentum
-                    volutpat. Ut dapibus, ex eu auctor sollicitudin.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <MenuSection />
+
         <div className="container webshop section-spacer">
           <div className="row">
             <div className="col-sm-6">

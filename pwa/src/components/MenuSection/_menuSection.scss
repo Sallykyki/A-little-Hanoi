@@ -1,0 +1,7 @@
+.component-MenuSection {
+  &__MenuCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
